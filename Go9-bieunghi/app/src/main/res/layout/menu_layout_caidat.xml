@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp">
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="47dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:background="#23AFEB"
+            android:gravity="center"
+            android:text="Cài đặt"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:src="@drawable/language"
+            android:background="#FFFFFF"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:background="#FFFFFF"
+            android:text="      Ngôn ngữ"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:layout_width="150dp"
+            android:layout_height="50dp" />
+        <Spinner
+            android:background="#FFFFFF"
+
+            android:layout_width="160dp"
+            android:layout_height="50dp"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:src="@drawable/version"
+            android:background="#FFFFFF"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:background="#FFFFFF"
+            android:text="      Phiên bản"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:layout_width="150dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:background="#FFFFFF"
+            android:text="      1.0"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:layout_width="160dp"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</RelativeLayout>

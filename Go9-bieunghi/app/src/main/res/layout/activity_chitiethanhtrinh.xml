@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.TrangChu.chitiethanhtrinh">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="47dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:background="#23AFEB"
+                android:gravity="center"
+                android:text="    [Tên Hành trình]"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+
+                />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_marginTop="47dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="90dp">
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="90dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="220dp"
+                    android:layout_height="90dp">
+                    <TextView
+                        android:id="@+id/chi_tiet_dia_dia_loai"
+                        android:text="[Loại địa điểm]"
+                        android:background="#FFFFFF"
+                        android:textColor="#000000"
+                        android:gravity="center"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+                        <TextView
+                            android:text="[  ] [  ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+                        <TextView
+                            android:text="Còn [   ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+
+
+                    </LinearLayout>
+                    <Button
+                        android:text="[Status]"
+                        android:gravity="center"
+                        android:textColor="#000000"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:background="#00A22A"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="90dp">
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="90dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="220dp"
+                    android:layout_height="90dp">
+                    <TextView
+                        android:id="@+id/chi_tiet_dia_dia_loai"
+                        android:text="[Loại địa điểm]"
+                        android:background="#FFFFFF"
+                        android:textColor="#000000"
+                        android:gravity="center"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+                        <TextView
+                            android:text="[  ] [  ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+                        <TextView
+                            android:text="Còn [   ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+
+
+                    </LinearLayout>
+                    <Button
+                        android:text="[Status]"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:background="#00A22A"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="160dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="90dp">
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="90dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="220dp"
+                    android:layout_height="90dp">
+                    <TextView
+                        android:id="@+id/chi_tiet_dia_dia_loai2"
+                        android:text="[Loại địa điểm]"
+                        android:background="#FFFFFF"
+                        android:textColor="#000000"
+                        android:gravity="center"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+                        <TextView
+                            android:text="[  ] [  ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+                        <TextView
+                            android:text="Còn [   ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+
+
+                    </LinearLayout>
+                    <Button
+                        android:text="[Status]"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        android:ems="10"
+                        android:background="#00A22A"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="250dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="90dp">
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="90dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="220dp"
+                    android:layout_height="90dp">
+                    <TextView
+                        android:id="@+id/chi_tiet_dia_dia_loai3"
+                        android:text="[Loại địa điểm]"
+                        android:background="#FFFFFF"
+                        android:textColor="#000000"
+                        android:gravity="center"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp">
+                        <TextView
+                            android:text="[  ] [  ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+                        <TextView
+                            android:text="Còn [   ]"
+                            android:gravity="center"
+                            android:background="#FFFFFF"
+                            android:layout_width="110dp"
+                            android:layout_height="30dp" />
+
+
+                    </LinearLayout>
+                    <Button
+                        android:text="[Status]"
+                        android:gravity="center"
+                        android:textColor="#FFFFFF"
+                        style="@style/Widget.AppCompat.Button.Colored"
+                        android:background="#00A22A"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="400dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/themht1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#EB060F"
+                android:text="[STATUS]"
+                android:textAlignment="center"
+
+                android:textColor="#FFFFFF" />
+
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

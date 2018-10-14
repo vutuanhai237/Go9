@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textViewDuongDayNong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:textSize="30sp"
+        android:text="Đường dây nóng" />
+
+    <ListView
+        android:id="@+id/listViewDuongDayNongEmergency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="87dp" />
+
+    <ImageView
+        android:id="@+id/iconAn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/listViewDuongDayNongEmergency"
+        android:layout_marginStart="66dp"
+        android:src="@drawable/menuicon_duongdaynong_anuong"
+        android:onClick="chonTinhNang"/>
+
+    <ImageView
+        android:id="@+id/iconNgu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewDuongDayNongEmergency"
+        android:layout_toRightOf="@+id/iconAn"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:onClick="chonTinhNang"
+        android:src="@drawable/menuicon_duongdaynong_iconphongngu" />
+
+    <ImageView
+        android:id="@+id/iconTaxi"
+        android:layout_below="@id/listViewDuongDayNongEmergency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuicon_duongdaynong_taxi"
+        android:layout_toRightOf="@id/iconNgu"
+        android:layout_marginTop="10dp"
+        android:onClick="chonTinhNang"
+        android:layout_marginLeft="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewDuongDayNongEmergency"
+        android:id="@+id/iconTroChoi"
+        android:layout_toRightOf="@id/iconTaxi"
+        android:layout_marginTop="10dp"
+        android:onClick="chonTinhNang"
+        android:src="@drawable/menuicon_duongdaynong_trochoi"
+        android:layout_marginLeft="30dp"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
+
+        <FrameLayout
+            android:id="@+id/frameDynamicDuongDayNong"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

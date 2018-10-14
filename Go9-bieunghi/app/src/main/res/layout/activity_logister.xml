@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.TrangChu.Logister">
+    <FrameLayout
+
+        android:background="@drawable/hinhnen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="125dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/txtViewGoTravel9"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#ff0000"
+                android:textAlignment="center"
+                android:text="Go Travel District 9"
+                android:textColor="@android:color/background_light"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="250dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <EditText
+                    android:layout_marginLeft="30dp"
+
+                    android:hint="  Nhập Email"
+                    android:background="#FFFFFF"
+                    android:inputType="textEmailAddress"
+                    android:outlineAmbientShadowColor="#FFFFFF"
+                    android:textColorHint="#C3C3C3"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <EditText
+                    android:layout_marginLeft="30dp"
+
+                    android:hint="  Nhập mật khẩu"
+                    android:background="#FFFFFF"
+                    android:inputType="textEmailAddress"
+                    android:outlineAmbientShadowColor="#FFFFFF"
+                    android:textColorHint="#C3C3C3"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <EditText
+                    android:layout_marginLeft="30dp"
+                    android:hint="  Nhập lại mật khẩu"
+                    android:background="#FFFFFF"
+                    android:inputType="numberPassword"
+                    android:outlineAmbientShadowColor="#FFFFFF"
+                    android:textColorHint="#C3C3C3"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+                <Button
+                    android:id="@+id/btn_logister"
+                    android:text="Đăng ký"
+                    android:textColor="#FFFFFF"
+                    android:background="#46AE1B"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

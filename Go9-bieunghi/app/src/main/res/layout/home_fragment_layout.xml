@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical"
+        tools:ignore="UnknownId"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+
+            <FrameLayout
+                android:background="@drawable/suoi_tien"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+                <TextView
+                    android:id="@+id/ten_dd"
+                    android:text=" - Tên địa điểm - "
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp" />
+                <LinearLayout
+                    android:layout_marginTop="277dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="0dp"
+                        android:textColor="#FFFFFF"
+                        android:textSize="10dp"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:text="[SL] người đã checkin tại địa điểm này "/>
+                </LinearLayout>
+            </FrameLayout>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginTop="0dp"
+                android:drawableRight="@drawable/abc"
+                android:hint="Nhập địa điểm"
+                android:textColorHint="#C3C3C3"
+                android:textColor="@color/common_google_signin_btn_text_light"
+                android:textSize="15dp" />
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:paddingTop="@dimen/appbar_padding_top"
+                android:theme="@style/AppTheme.AppBarOverlay">
+
+
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TabItem
+                        android:id="@+id/tabItem"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MAP" />
+
+                    <android.support.design.widget.TabItem
+                        android:id="@+id/tabItem2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="LIST" />
+
+
+
+                </android.support.design.widget.TabLayout>
+            </android.support.design.widget.AppBarLayout>
+
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/container"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </android.support.v4.view.ViewPager>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </ScrollView>
+            <CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+
+                android:padding="5dp"
+                android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="16dp"
+                app:srcCompat="@android:drawable/ic_dialog_email" />
+
+            <TextView
+                android:id="@+id/kho_dia_diem"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:layout_height="47dp"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:text="    Kho địa điểm"
+                android:textAlignment="textStart" />
+
+            <ImageView
+                android:id="@+id/khay"
+                android:layout_width="match_parent"
+                android:layout_height="193dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/khung" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="360dp"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#46AE1B"
+                    android:layout_height="wrap_content"
+                    android:text="Thêm" />
+
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="204dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp">
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="360dp"
+                        android:layout_height="47dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="0dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:text="    Hành trình"
+                        android:textAlignment="textStart"
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="17dp"
+
+                        />
+
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginTop="150dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/themht"
+                        android:layout_width="190dp"
+                        android:layout_height="50dp"
+                        android:background="#74CFE3"
+                        android:text="Chi tiết"
+                        android:textAlignment="center"
+
+                        android:textColor="#FFFFFF" />
+
+                    <LinearLayout
+                        android:layout_width="190dp"
+                        android:layout_height="47dp"
+
+                        android:layout_marginTop="0dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/sl_dd"
+                            android:layout_width="35dp"
+                            android:layout_height="47dp"
+                            android:gravity="center"
+                            android:text="SL"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/sldd" />
+
+                        <TextView
+                            android:id="@+id/sl_pt"
+                            android:layout_width="35dp"
+                            android:layout_height="47dp"
+                            android:gravity="center"
+                            android:text="SL"
+                            android:textAlignment="center" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+
+                            android:src="@drawable/slpt" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

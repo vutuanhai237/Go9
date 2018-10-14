@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.TrangChu.phanhoi">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="178dp">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:background="#23AFEB"
+                android:gravity="center"
+                android:text="Phản hồi"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+
+                android:textSize="17dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="5 sao"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/fivestar" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[  ]"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="4 sao"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/fourstar" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[  ]"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="3 sao"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/threestar" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[  ]"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="2 sao"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/twostar" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[  ]"
+                    android:textAlignment="center" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="1 sao"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="260dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/onestar" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[  ]"
+                    android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:background="#FFFFFF"
+                    android:minLines="2"
+                    android:hint="  Nhập bình luận"
+                    android:textColorHint="#C3C3C3"
+                    android:layout_width="260dp"
+                    android:layout_height="50dp" />
+
+                <Spinner
+
+                    android:tooltipText="Chọn danh mục"
+                    android:background="#FFFFFF"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"></Spinner>
+
+                <ImageButton
+                    android:src = "@drawable/send"
+                    android:background="#FFFFFF"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

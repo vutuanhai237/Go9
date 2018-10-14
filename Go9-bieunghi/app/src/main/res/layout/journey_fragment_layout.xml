@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="47dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="    [Tên Hành trình]"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="17dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="180dp"
+
+
+                android:layout_height="47dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sl_dd1"
+                    android:layout_width="35dp"
+                    android:layout_height="47dp"
+                    android:gravity="center"
+                    android:text="SL"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/sldd" />
+
+                <TextView
+                    android:id="@+id/sl_pt1"
+                    android:layout_width="35dp"
+                    android:layout_height="47dp"
+                    android:gravity="center"
+                    android:text="SL"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:src="@drawable/slpt" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/themht1"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#74CFE3"
+                android:text="Chi tiết"
+                android:textAlignment="center"
+
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="47dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:text="    [Tên Hành trình]"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="17dp"
+
+                />
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="151dp">
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+
+
+            <LinearLayout
+                android:layout_width="180dp"
+
+
+                android:layout_height="47dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sl_dd2"
+                    android:layout_width="35dp"
+                    android:layout_height="47dp"
+                    android:gravity="center"
+                    android:text="SL"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/sldd" />
+
+                <TextView
+                    android:id="@+id/sl_pt2"
+                    android:layout_width="35dp"
+                    android:layout_height="47dp"
+                    android:gravity="center"
+                    android:text="SL"
+                    android:textAlignment="center" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:src="@drawable/slpt" />
+
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/themht2"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="#74CFE3"
+                android:text="Chi tiết"
+                android:textAlignment="center"
+
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <Button
+                android:id="@+id/themht_theoyc"
+                android:background="#46AE1B"
+                android:text="Thêm HÀNH TRÌNH theo yêu cầu"
+                android:textAlignment="center"
+
+                android:textColor="#FFFFFF"
+                android:layout_width="360dp"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</RelativeLayout>
